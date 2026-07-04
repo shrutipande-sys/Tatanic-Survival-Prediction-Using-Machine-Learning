@@ -1,0 +1,91 @@
+# Titanic Survival Prediction Using Machine Learning
+
+##  Project Overview
+
+This project predicts whether a passenger survived the Titanic disaster using Machine Learning classification algorithms. The project demonstrates a complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, model evaluation, and comparison of different classification models.
+
+---
+
+##  Dataset
+
+- **Dataset:** Titanic Dataset
+- **Source:** Kaggle – Titanic: Machine Learning from Disaster
+- **Total Records:** 891
+- **Total Features:** 12
+- **Target Variable:** Survived
+
+---
+
+##  Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+- Git & GitHub
+
+---
+
+##  Project Workflow
+
+- Data Loading
+- Data Cleaning
+- Missing Value Handling
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Data Encoding
+- Feature Scaling
+- Train-Test Split
+- Model Training
+- Model Evaluation
+- Model Comparison
+
+---
+
+##  Machine Learning Models
+
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+
+---
+
+##  Model Performance
+
+| Model | Accuracy | Precision | Recall | F1 Score |
+|---------------------------|---------:|----------:|--------:|---------:|
+| Logistic Regression | 0.7989 | 0.7879 | 0.7027 | 0.7429 |
+| Decision Tree Classifier | 0.8101 | 0.8030 | 0.7162 | 0.7571 |
+| Random Forest Classifier | **0.8156** | 0.7887 | **0.7568** | **0.7724** |
+
+---
+
+##  Best Model
+
+**Random Forest Classifier**
+
+Performance:
+
+- **Accuracy:** 81.56%
+- **Precision:** 78.87%
+- **Recall:** 75.68%
+- **F1 Score:** 77.24%
+
+Random Forest Classifier achieved the best overall performance among all the trained models and was selected as the final model for predicting passenger survival.
+
+---
+
+##  Conclusion
+
+This project demonstrates an end-to-end machine learning workflow for solving a classification problem. After comparing Logistic Regression, Decision Tree Classifier, and Random Forest Classifier, the Random Forest Classifier achieved the best overall performance and was selected as the final prediction model.
+
+---
+
+## 👩‍💻 Author
+
+**Shruti Pande**
+
+GitHub: https://github.com/shrutipande-sys
